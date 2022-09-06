@@ -10,9 +10,7 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 
-const socket = io('http://localhost:5001');
-
-// io('https://warm-wildwood-81069.herokuapp.com');
+const socket = io('https://sandesh-server.vercel.app/') || io('http://localhost:5001');
 
 const ContextProvider = ({ children }) => {
   const [isActive, setIsActive] = useState();

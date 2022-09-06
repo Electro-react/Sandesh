@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://warm-wildwood-81069.herokuapp.com",
+  "proxy": "https://sandesh-server.vercel.app/",
   "dependencies": {
     "5": "^0.0.1",
     "@emotion/react": "^11.10.0",
